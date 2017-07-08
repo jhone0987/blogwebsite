@@ -7,6 +7,27 @@
 </head>
 
 <style>
+	
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
 
 h1 {
 width:100%;
@@ -63,7 +84,29 @@ nav.credits {
 <hr>
 <h3 style="font-size: 40px">Developers:</h3>
 <br>
-<img src="david.jpg" alt="david" width="340" height="450" border="solid aquamarine">
+	<div class="gallery">
+  <a target="_blank" href="david.bmp">
+    <img src="david.bmp" alt="david" width="30%" height="300">
+  </a>
+  <div class="desc">David Sidney Ibarra</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="precious.jpeg">
+    <img src="precious.jpeg" alt="Forest" width="30%" height="300">
+  </a>
+  <div class="desc">Precious Mae Santiago</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="ira.jpeg">
+    <img src="ira.jpeg" alt="Ira" width="30%" height="300">
+  </a>
+  <div class="desc">Ira John Paris</div>
+</div>
+	
+	
+<img src="david.bmp" alt="david" width="340" height="450" border="solid aquamarine">
 <img src="precious.jpeg" alt="precious" width="250" height="310";>
 <img src="ira.jpeg" alt="ira" width="480" height="310">
 </nav>
